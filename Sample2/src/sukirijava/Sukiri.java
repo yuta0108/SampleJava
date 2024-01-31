@@ -1,4 +1,4 @@
-package sukirikava;
+package sukirijava;
 
 public class Sukiri {
 	public static void main(String[] aargs) {

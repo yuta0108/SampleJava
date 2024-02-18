@@ -14,7 +14,6 @@ public class Sukiri5_5_1 {
 		for (int i : array) {
 			System.out.println(i);
 		}
-
 	}
 
 }

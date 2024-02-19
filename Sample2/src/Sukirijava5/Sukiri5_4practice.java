@@ -12,5 +12,4 @@ public class Sukiri5_4practice {
 		System.out.println(calcTriangleArea(10, 5));
 		System.out.println(calcCircleArea(5));
 	}
-
 }

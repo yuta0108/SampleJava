@@ -4,8 +4,9 @@ public class Matango {
 	int hp;
 	final int  LEVEL = 3;
 	//フィールドLEVELは3で固定
-	public static void main(String[] args) {
-		
+	char suffix;
+	public void run() {
+		System.out.println("お化けキノコ" + this.suffix + "は逃げ出した！");
 	}
 
 }

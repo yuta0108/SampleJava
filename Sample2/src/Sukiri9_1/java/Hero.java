@@ -6,7 +6,7 @@ public class Hero {
 	Sword sword;
 	
 	public void attack() {
-		System.out.println(this.name + "は攻撃した！");
+		System.out.println(this.name + "は " + this.sword.name + "で" + "攻撃した！");
 		System.out.println("敵に5のダメージを与えた！");
 	}
 	public void sleep() {

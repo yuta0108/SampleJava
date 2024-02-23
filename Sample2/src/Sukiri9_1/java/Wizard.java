@@ -8,8 +8,9 @@ public class Wizard {
 		h.hp += 10;
 		System.out.println(h.name + "のHPを10回復した！");
 	}
-	public Wizard() {
+	public Wizard(String name) {
 		this.hp = 80;	//hpフィールドを１００で初期化
+		this.name = name;
 	}
 
 }

@@ -1,4 +1,4 @@
-package Sukiri9_1.java;
+package Sukiri9_1.java.copy;
 
 public class Hero {
 	String name;
@@ -38,7 +38,8 @@ public class Hero {
 		this.name = name; //引数の値でnameフィールドを初期化
 	}
 	public Hero() {
-		this( "ダミー");
+		this.hp = 100;
+		this.name = "ダミー";
 	}
 
 }

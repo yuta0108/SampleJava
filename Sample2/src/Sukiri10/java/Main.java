@@ -23,9 +23,7 @@ public class Main {
 		System.out.println(h3.name + "のHPは" + h3.hp + "です");	
 		System.out.println(w.name + "のHPは" + w.hp + "です");
 		System.out.println(h1.name + "の現在の武器は" + h1.sword.name);
-		h1.attack();
 		sh.run();
+		h1.run();
 	}
-	
-
 }

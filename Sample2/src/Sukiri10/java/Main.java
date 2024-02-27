@@ -12,6 +12,8 @@ public class Main {
 		Wizard w = new Wizard("すがわら");
 		Hero h3 = new Hero();
 		SuperHero sh = new SuperHero();
+		Matango m = new Matango("お化けキノコ");
+		m.suffix = 'A';
 		
 		
 		w.heal(h1); //みなとを回復させる（hp: 100 -> 110）

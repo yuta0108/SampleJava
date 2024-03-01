@@ -6,6 +6,7 @@ public class Main {
 		SuperHero sh = new SuperHero();
 		//Javaでは、すべてのコンストラクタは、先頭で必ず内部インスタンス(親クラス)の
 		//コンストラクタを呼び出さなければならない
+		Weapon w = new Weapon();
 	}
 
 }

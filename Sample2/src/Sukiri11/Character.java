@@ -8,5 +8,6 @@ public class Character {
 	}
 	public void attack(Matango m) {
 		//attackメソッドの内容決めていないため一端空にする
+		//必ずオーバーライドして使うこと！
 	}
 }

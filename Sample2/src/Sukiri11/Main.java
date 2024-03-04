@@ -13,6 +13,7 @@ public class Main {
 		Hero h3 = new Hero();
 		Matango m = new Matango("お化けキノコ");
 		m.suffix = 'A';
+		Dancer d = new Dancer("あおき");
 		
 		
 		w.heal(h1); //みなとを回復させる（hp: 100 -> 110）
@@ -26,5 +27,6 @@ public class Main {
 		System.out.println(h1.name + "の現在の武器は" + h1.sword.name);
 		h1.attack(m);
 		h1.run();
+		d.attack(m);
 	}
 }

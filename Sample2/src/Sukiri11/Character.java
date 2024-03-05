@@ -4,9 +4,7 @@ public abstract class Character {
 	//抽象クラスとしてCharacterを宣言
 	String name;
 	int hp;
-	public void run() {
-		System.out.println(this.name + "は、逃げ出した！");
-	}
+	public abstract void run();
 	public abstract void attack(Matango m);
 		//attackメソッドの内容決めていないため一端空にする
 		//必ずオーバーライドして使うこと！

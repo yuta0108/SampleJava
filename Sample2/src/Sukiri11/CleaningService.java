@@ -1,4 +1,4 @@
-package Sukiri10.java;
+package Sukiri11;
 //インターフェイスについて
 public interface CleaningService {
 	Shirt washShirt(Shirt s);

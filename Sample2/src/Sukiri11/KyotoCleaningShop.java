@@ -1,4 +1,5 @@
-package Sukiri10.java;
+package Sukiri11;
+
 //インターフェイスを継承して子クラスを定義する場合：implementsを使用
 public class KyotoCleaningShop implements
 	CleaningService {

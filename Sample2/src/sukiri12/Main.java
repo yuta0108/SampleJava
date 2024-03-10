@@ -3,11 +3,10 @@ package sukiri12;
 public class Main {
 
 	public static void main(String[] args) {
-		Wizard w = new Wizard();
-		Matango m = new Matango();
-		w.name = "あさか";
-		w.attack(m);
-		w.fireball(m);
+		//どんな箱に入っているかは関係ない。その為中身のSlimeが実行される
+		Monster m = new Slime();
+		Slime s = new Slime();
+		s.run(); m.run();
 	}
 
 }

@@ -1,8 +1,7 @@
 package sukiri12;
 
-public class Matango {
-	String name;
-	int hp;
+public class Matango extends Monster {
+	
 		final int LEVEL = 5;
 	char suffix;
 	

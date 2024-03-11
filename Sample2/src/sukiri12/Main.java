@@ -19,6 +19,16 @@ public class Main {
 		c[1] = new Hero();
 		c[2] = new Wizard();
 		c[3] = new Wizard();
+		
+		Monster[] m = new Monster[3];
+		m[0] = new Slime();
+		m[1] = new Slime();
+		m[2] = new Matango();
+		
+		for (Monster mh : m) {
+			mh.run();
+		}
+		
 		for (Character ch : c) {
 		//コレクション内の各要素 () を反復する for-each ループ
 			ch.hp += 100;

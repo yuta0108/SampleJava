@@ -9,6 +9,12 @@ public class Hero {
 		this.hp = 100;
 		System.out.println(this.name + "は、眠って回復した！");
 	}
+	//attackはどのようなクラスからでも呼び出せるようにするためpublicを使用
+	public void attack(Matango m) {
+		System.out.println(this.name + "の攻撃！");
+		System.out.println("敵に5のダメージ！");
+		m.hp -= 5;
+	}
 	
 	//privateによりdieメソッドは外部のメソッドから呼び出せない
 	private void die() {

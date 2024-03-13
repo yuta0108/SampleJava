@@ -3,7 +3,7 @@ package sukiri13;
 public class Hero {
 	//他のクラスから直接変更できる必要がないためprivateを使用
 	private int hp;
-	String name;
+	private String name;
 	Sword sword;
 	public void sleep() {
 		this.hp = 100;
@@ -20,5 +20,9 @@ public class Hero {
 	private void die() {
 		System.out.println(this.name + "は死んでしまった！");
 		System.out.println("GAME OVERです。");
+	}
+	//KingがHeroの名前を知るために追加
+	public String getName() {
+		return this.name;
 	}
 }
